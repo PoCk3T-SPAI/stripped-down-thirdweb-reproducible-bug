@@ -1,0 +1,52 @@
+{
+  "name": "spiderweb.ai-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@thirdweb-dev/react": "3.11.2",
+    "@thirdweb-dev/sdk": "3.10.6",
+    "axios": "^0.25.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "ethers": "^5",
+    "node-sass": "^7.0.1",
+    "react": "^18.2.0",
+    "react-app-rewired": "2.2.1",
+    "react-bootstrap": "^2.1.1",
+    "react-cli": "^0.3.1",
+    "react-countdown": "^2.3.2",
+    "react-dom": "^18.2.0",
+    "react-ga4": "2.1.0",
+    "react-hooks-paginator": "^0.5.0",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "4.0.3",
+    "react-select": "5.7.2",
+    "react-tabs": "^5",
+    "react-toastify": "^9.1.2",
+    "sass": "^1.45.1",
+    "swiper": "^7.3.1",
+    "walletconnect": "1.7.8",
+    "web-vitals": "^2.1.3",
+    "web3": "1.9.0",
+    "webpack": "4.44.2",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "3.11.1"
+  },
+  "scripts": {
+    "start": "react-app-rewired --openssl-legacy-provider start ",
+    "build": "react-app-rewired --openssl-legacy-provider build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ]
+}
